@@ -51,7 +51,7 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/Xiang511/RUNNING-WITH-RIFLES/tree/main/website/',
         },
         blog: {
           showReadingTime: true,
@@ -61,8 +61,8 @@ const config = {
           },
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          // editUrl:
+          //   'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
           // Useful options to enforce blogging best practices
           onInlineTags: 'warn',
           onInlineAuthors: 'warn',
@@ -138,40 +138,40 @@ const config = {
                 label: 'TikTok',
                 href: 'https://www.tiktok.com/@osumiagames',
               },
-              {
-                label: 'X',
-                href: 'https://x.com/osumiagames',
-              },
+              
             ],
           },
           {
             title: 'Friendly links',
             items: [
               {
+                label: 'WeaponStats comparison',
+                href: 'https://xiang511.com/RWR_WiKi/',
+              }
+              ,{
                 label: 'Official Wiki',
                 href: 'https://runningwithrifles.fandom.com/wiki/Running_with_Rifles_Wiki',
               },
               {
-                label: 'rwrstats',
+                label: 'RwRstats',
                 href: 'https://rwrstats.com/',
               },
-              {
-                label: 'weapon stats comparison',
-                href: 'https://xiang511.com/RWR_WiKi/',
-              },
+              
             ],
           },
           {
             title: 'More',
             items: [
+              
+              {
+                label: 'GitHub',
+                href: 'https://github.com/Xiang511/RUNNING-WITH-RIFLES',
+              },
               {
                 label: 'Blog',
                 to: '/blog',
               },
-              {
-                label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
-              },
+              
             ],
           },
         ],
