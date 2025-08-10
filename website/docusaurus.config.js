@@ -4,14 +4,14 @@
 // There are various equivalent ways to declare your Docusaurus config.
 // See: https://docusaurus.io/docs/api/docusaurus-config
 
-import {themes as prismThemes} from 'prism-react-renderer';
+import { themes as prismThemes } from 'prism-react-renderer';
 
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
+  title: 'RUNNING-WITH-RIFLES',
+  tagline: 'An ad-free wiki with a smooth user experience.',
   favicon: 'img/favicon.ico',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
@@ -81,7 +81,7 @@ const config = {
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'My Site',
+        title: 'RWR Wiki',
         logo: {
           alt: 'My Site Logo',
           src: 'img/logo.svg',
@@ -93,9 +93,15 @@ const config = {
             position: 'left',
             label: 'Tutorial',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/facebook/docusaurus',
+            type: 'docSidebar',
+            sidebarId: 'showcaseSidebar',
+            position: 'left',
+            label: 'Showcase',
+          },
+          { to: '/blog', label: 'Blog', position: 'left' },
+          {
+            href: 'https://github.com/Xiang511/RUNNING-WITH-RIFLES',
             label: 'GitHub',
             position: 'right',
           },
@@ -109,7 +115,11 @@ const config = {
             items: [
               {
                 label: 'Tutorial',
-                to: '/docs/intro',
+                to: '/docs/tutorial/intro',
+              },
+               {
+                label: 'Showcase',
+                to: '/docs/showcase/intro',
               },
             ],
           },
@@ -117,16 +127,37 @@ const config = {
             title: 'Community',
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+                label: 'Facebook',
+                href: 'https://www.facebook.com/RunningWithRifles/',
               },
               {
                 label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
+                href: 'https://discord.gg/BXeTySyFxA',
+              },
+              {
+                label: 'TikTok',
+                href: 'https://www.tiktok.com/@osumiagames',
               },
               {
                 label: 'X',
-                href: 'https://x.com/docusaurus',
+                href: 'https://x.com/osumiagames',
+              },
+            ],
+          },
+          {
+            title: 'Friendly links',
+            items: [
+              {
+                label: 'Official Wiki',
+                href: 'https://runningwithrifles.fandom.com/wiki/Running_with_Rifles_Wiki',
+              },
+              {
+                label: 'rwrstats',
+                href: 'https://rwrstats.com/',
+              },
+              {
+                label: 'weapon stats comparison',
+                href: 'https://xiang511.com/RWR_WiKi/',
               },
             ],
           },
@@ -144,7 +175,8 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        
+        copyright: `Copyright © ${new Date().getFullYear()} Xiang. Built with Docusaurus.`,
       },
       prism: {
         theme: prismThemes.github,
