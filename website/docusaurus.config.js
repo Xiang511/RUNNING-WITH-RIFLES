@@ -81,7 +81,7 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
-      
+
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
@@ -99,10 +99,29 @@ const config = {
           },
           {
             type: 'docSidebar',
+            sidebarId: 'ResourceSidebar',
+            position: 'left',
+            label: 'Resources',
+          },
+           {
+            type: 'docSidebar',
+            sidebarId: 'OnlineSidebar',
+            position: 'left',
+            label: 'Onlines',
+          },
+           {
+            type: 'docSidebar',
+            sidebarId: 'ModdingSidebar',
+            position: 'left',
+            label: 'Modding',
+          },
+          {
+            type: 'docSidebar',
             sidebarId: 'showcaseSidebar',
             position: 'left',
             label: 'Showcase',
           },
+
           { to: '/blog', label: 'Blog', position: 'left' },
           {
             href: 'https://github.com/Xiang511/RUNNING-WITH-RIFLES',
@@ -120,6 +139,18 @@ const config = {
               {
                 label: 'Tutorial',
                 to: '/docs/tutorial/intro',
+              },
+               {
+                label: 'Resources',
+                to: '/docs/resources/intro',
+              },
+               {
+                label: 'Onlines',
+                to: '/docs/onlines/intro',
+              },
+               {
+                label: 'Modding',
+                to: '/docs/modding/intro',
               },
               {
                 label: 'Showcase',
@@ -183,15 +214,15 @@ const config = {
         copyright: `Copyright © ${new Date().getFullYear()} Xiang. Built with Docusaurus.`,
       },
       zoom: {
-      selector: '.markdown :not(em) > img',
-      background: {
-        light: 'rgb(255, 255, 255)',
-        dark: 'rgb(50, 50, 50)'
+        selector: '.markdown :not(em) > img',
+        background: {
+          light: 'rgb(255, 255, 255)',
+          dark: 'rgb(50, 50, 50)'
+        },
+        config: {
+          // options you can specify via https://github.com/francoischalifour/medium-zoom#usage
+        }
       },
-      config: {
-        // options you can specify via https://github.com/francoischalifour/medium-zoom#usage
-      }
-    },
       prism: {
         theme: prismThemes.github,
         darkTheme: prismThemes.dracula,
