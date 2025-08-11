@@ -40,6 +40,9 @@ const config = {
     defaultLocale: 'en',
     locales: ['en'],
   },
+  plugins: [
+    require.resolve('docusaurus-plugin-image-zoom')
+  ],
 
   presets: [
     [
@@ -78,6 +81,7 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
@@ -117,7 +121,7 @@ const config = {
                 label: 'Tutorial',
                 to: '/docs/tutorial/intro',
               },
-               {
+              {
                 label: 'Showcase',
                 to: '/docs/showcase/intro',
               },
@@ -138,7 +142,7 @@ const config = {
                 label: 'TikTok',
                 href: 'https://www.tiktok.com/@osumiagames',
               },
-              
+
             ],
           },
           {
@@ -148,7 +152,7 @@ const config = {
                 label: 'WeaponStats comparison',
                 href: 'https://xiang511.com/RWR_WiKi/',
               }
-              ,{
+              , {
                 label: 'Official Wiki',
                 href: 'https://runningwithrifles.fandom.com/wiki/Running_with_Rifles_Wiki',
               },
@@ -156,13 +160,13 @@ const config = {
                 label: 'RwRstats',
                 href: 'https://rwrstats.com/',
               },
-              
+
             ],
           },
           {
             title: 'More',
             items: [
-              
+
               {
                 label: 'GitHub',
                 href: 'https://github.com/Xiang511/RUNNING-WITH-RIFLES',
@@ -171,13 +175,23 @@ const config = {
                 label: 'Blog',
                 to: '/blog',
               },
-              
+
             ],
           },
         ],
-        
+
         copyright: `Copyright © ${new Date().getFullYear()} Xiang. Built with Docusaurus.`,
       },
+      zoom: {
+      selector: '.markdown :not(em) > img',
+      background: {
+        light: 'rgb(255, 255, 255)',
+        dark: 'rgb(50, 50, 50)'
+      },
+      config: {
+        // options you can specify via https://github.com/francoischalifour/medium-zoom#usage
+      }
+    },
       prism: {
         theme: prismThemes.github,
         darkTheme: prismThemes.dracula,
