@@ -1,7 +1,8 @@
 ---
 sidebar_position: 1
 ---
-# Welcome to Running With Rifles
+# Intro
+## Welcome to Running With Rifles
 
 Running with Rifles is a top down/isometric shooter where you take on the role of a single soldier in the middle of a massive all out war between the Greenbelts, the Graycollars and the Brownpants. You are insignificant. You are no better than the man next to you. You are no god of war with regenerating health. You are just a soldier.
 
