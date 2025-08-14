@@ -43,7 +43,7 @@ When launching the editor, an OGRE dialog pops up:
                - drag single bone point around and the other movable points will follow
        - To add a keyframe, click on the timeline, and displace a bone point
        - Currently, there's no playback button: simulate playback by dragging the timeline slider
-
+Enter your content
 :::note
 This is a copy-pasted text from the first post by Pasik
 :::
