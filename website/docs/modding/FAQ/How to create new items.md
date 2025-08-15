@@ -1,3 +1,9 @@
+---
+tags:
+  - Modding
+  - Create new Item
+---
+
 In campaign this is how to insert items into your singleplayer stash.
 
 First in the RWR main menu you go to ***CONTINUE RECENT GAME***

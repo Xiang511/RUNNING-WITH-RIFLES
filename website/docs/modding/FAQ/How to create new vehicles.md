@@ -1,3 +1,9 @@
+---
+tags:
+  - Modding
+  - vehicle
+---
+
 ## Example
 ```
 <vehicle file="vehicle_base.vehicle" name="quad" key="atv_base.vehicle" map_view_atlas_index="27" minimum_fill_requirement="1">

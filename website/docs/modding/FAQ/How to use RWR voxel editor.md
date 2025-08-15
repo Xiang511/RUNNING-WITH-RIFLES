@@ -1,5 +1,15 @@
+---
+tags:
+  - Modding
+  - RWR voxel editor
+---
+
+More explanations on the Running With Rifles official forum topic : [RWR Voxel Editor 0.14](http://www.runningwithrifles.com/phpBB3/viewtopic.php?f=4&t=363)
 
 ## Launching
+
+
+
 ```
    rwr_editor.exe [model XML file] [animation XML file]
 ```
