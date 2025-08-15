@@ -121,7 +121,7 @@ const config = {
             position: 'left',
             label: 'Showcase',
           },
-
+          { to: '/discussions', label: 'Discussions', position: 'left' },
           { to: '/blog', label: 'Blog', position: 'left' },
           {
             href: 'https://github.com/Xiang511/RUNNING-WITH-RIFLES',
@@ -197,7 +197,10 @@ const config = {
           {
             title: 'More',
             items: [
-
+              {
+                label: 'Discussions',
+                to: '/discussions',
+              },
               {
                 label: 'GitHub',
                 href: 'https://github.com/Xiang511/RUNNING-WITH-RIFLES',
