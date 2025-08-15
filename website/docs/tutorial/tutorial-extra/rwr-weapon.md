@@ -7,9 +7,9 @@ tags:
 # Best bang for the buck (weapon)
 
 Listing best weapons with a cheap price
-```
-https://steamcommunity.com/sharedfiles/filedetails/?id=3450289374
-```
+
+- [https://steamcommunity.com/sharedfiles/filedetails/?id=3450289374](https://steamcommunity.com/sharedfiles/filedetails/?id=3450289374)
+
 
 The guide is made for new and veteran players alike 
 

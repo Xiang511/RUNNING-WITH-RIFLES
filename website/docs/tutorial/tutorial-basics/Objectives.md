@@ -1,5 +1,8 @@
 ---
 sidebar_position: 7
+tags:
+  - Tutorial-basics
+  - Objectives
 ---
 
 For most maps, the ultimate objective of RWR is to capture the entire map. This is done by capturing the sectors shown in the map. The sectors shaded by your faction's color belong to you already.

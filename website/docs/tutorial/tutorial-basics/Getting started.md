@@ -1,5 +1,8 @@
 ---
 sidebar_position: 1
+tags:
+  - Tutorial-basics
+  - Getting started
 ---
 
 When you start up the game, you will find yourself in the lobby/playground area, which is basically a small map without any enemies. You can toggle the menu on and off with the ESC key. Doing so will allow you to use The Playground, which contains some basic tips and allows you to familiarize yourself with the way the game works. To start/resume a quick game/campaign, you need to have the menu opened (ESC).

@@ -1,5 +1,8 @@
 ---
 sidebar_position: 8
+tags:
+  - Tutorial-basics
+  - Mapview
 ---
 
 The mapview can be called by pressing the TAB key (default value). It gives you important informations about what territory is under your control and what base your commander AI is targeting. It also shows the different accessible spawn, vehicles and resources locations. It also shows the base names and those base are painted in the color of the faction which is under their control.

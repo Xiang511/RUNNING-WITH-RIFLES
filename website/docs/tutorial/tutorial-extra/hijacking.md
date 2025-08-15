@@ -6,9 +6,9 @@ tags:
 # Hijacking vehicles with EMP 
 
 Video compilation (15 minutes) with setups for ambushing vehicles:
-```
-https://www.youtube.com/watch?v=Ddw86Yn9bXk
-```
+
+- [https://www.youtube.com/watch?v=Ddw86Yn9bXk](https://www.youtube.com/watch?v=Ddw86Yn9bXk)
+
 
 Maps in the video:
 - Dry Enclave (M528)

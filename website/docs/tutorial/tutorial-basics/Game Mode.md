@@ -1,5 +1,8 @@
 ---
 sidebar_position: 2
+tags:
+  - Tutorial-basics
+  - Game Mode
 ---
 
 ## intro 

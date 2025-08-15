@@ -1,5 +1,8 @@
 ---
 sidebar_position: 10
+tags:
+  - Tutorial-basics
+  - Squad control
 ---
 
 When your character is of sufficient rank, ***squadmates*** will begin to follow you around. Soldiers of lower rank will automatically join your ***squad***.

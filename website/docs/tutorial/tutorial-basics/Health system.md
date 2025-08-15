@@ -1,5 +1,8 @@
 ---
 sidebar_position: 6
+tags:
+  - Tutorial-basics
+  - Health System
 ---
 
 The health system in RWR is not the usual one most might be used to from many other shooters as you don't "take damage" in the traditional sense.

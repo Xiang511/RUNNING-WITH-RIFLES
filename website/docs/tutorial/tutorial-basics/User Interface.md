@@ -1,5 +1,8 @@
 ---
 sidebar_position: 4
+tags:
+  - Tutorial-basics
+  - UI
 ---
 
 The UI in RWR is kept relatively simple, so that the player's screen isn't occluded with UI elements.

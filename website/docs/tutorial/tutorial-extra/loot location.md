@@ -6,9 +6,9 @@ tags:
 # Secret loot location's 
 
 This guide discusses Secret Crates, Secret Cars, and The Tracker challenge.
-```
-https://steamcommunity.com/sharedfiles/filedetails/?id=257912293
-```
+
+- [https://steamcommunity.com/sharedfiles/filedetails/?id=257912293](https://steamcommunity.com/sharedfiles/filedetails/?id=257912293)
+
 
 
 :::info
