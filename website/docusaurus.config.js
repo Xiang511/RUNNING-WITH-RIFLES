@@ -38,7 +38,24 @@ const config = {
   // may want to replace "en" with "zh-Hans".
   i18n: {
     defaultLocale: 'en',
-    locales: ['en'],
+    locales: ['en', 'zh-Hans'],
+    path: 'i18n',
+    localeConfigs: {
+      en: {
+        label: 'English',
+        direction: 'ltr',
+        htmlLang: 'en-US',
+        calendar: 'gregory',
+        path: 'en',
+      },
+      'zh-Hans': {
+        label: '简体中文',
+        direction: 'ltr',
+        htmlLang: 'zh-CN',
+        calendar: 'gregory',
+        path: 'zh-Hans',
+      }
+    }
   },
   plugins: [
     require.resolve('docusaurus-plugin-image-zoom')
@@ -103,17 +120,21 @@ const config = {
             position: 'left',
             label: 'Resources',
           },
-           {
+          {
             type: 'docSidebar',
             sidebarId: 'OnlineSidebar',
             position: 'left',
             label: 'Onlines',
           },
-           {
+          {
             type: 'docSidebar',
             sidebarId: 'ModdingSidebar',
             position: 'left',
             label: 'Modding',
+          },
+          {
+            type: 'localeDropdown',
+            position: 'right',
           },
           { to: '/discussions', label: 'Discussions', position: 'left' },
           { to: '/blog', label: 'Blog', position: 'left' },
@@ -134,15 +155,15 @@ const config = {
                 label: 'Tutorial',
                 to: '/docs/tutorial/intro',
               },
-               {
+              {
                 label: 'Resources',
                 to: '/docs/resources/intro',
               },
-               {
+              {
                 label: 'Onlines',
                 to: '/docs/onlines/intro',
               },
-               {
+              {
                 label: 'Modding',
                 to: '/docs/modding/intro',
               },

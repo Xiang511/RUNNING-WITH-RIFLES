@@ -1,0 +1,38 @@
+{
+  "title": {
+    "message": "RWR Wiki",
+    "description": "The title in the navbar"
+  },
+  "logo.alt": {
+    "message": "My Site Logo",
+    "description": "The alt text of navbar logo"
+  },
+  "item.label.Tutorial": {
+    "message": "Tutorial",
+    "description": "Navbar item with label Tutorial"
+  },
+  "item.label.Resources": {
+    "message": "Resources",
+    "description": "Navbar item with label Resources"
+  },
+  "item.label.Onlines": {
+    "message": "Onlines",
+    "description": "Navbar item with label Onlines"
+  },
+  "item.label.Modding": {
+    "message": "Modding",
+    "description": "Navbar item with label Modding"
+  },
+  "item.label.Discussions": {
+    "message": "Discussions",
+    "description": "Navbar item with label Discussions"
+  },
+  "item.label.Blog": {
+    "message": "Blog",
+    "description": "Navbar item with label Blog"
+  },
+  "item.label.GitHub": {
+    "message": "GitHub",
+    "description": "Navbar item with label GitHub"
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "link.title.Docs": {
+    "message": "文档",
+    "description": "The title of the footer links column with title=Docs in the footer"
+  },
+  "link.title.Community": {
+    "message": "社区",
+    "description": "The title of the footer links column with title=Community in the footer"
+  },
+  "link.title.Friendly links": {
+    "message": "友好链接",
+    "description": "The title of the footer links column with title=Friendly links in the footer"
+  },
+  "link.title.More": {
+    "message": "更多",
+    "description": "The title of the footer links column with title=More in the footer"
+  },
+  "link.item.label.Tutorial": {
+    "message": "教程",
+    "description": "The label of footer link with label=Tutorial linking to /docs/tutorial/intro"
+  },
+  "link.item.label.Resources": {
+    "message": "资源",
+    "description": "The label of footer link with label=Resources linking to /docs/resources/intro"
+  },
+  "link.item.label.Onlines": {
+    "message": "在线",
+    "description": "The label of footer link with label=Onlines linking to /docs/onlines/intro"
+  },
+  "link.item.label.Modding": {
+    "message": "Modding",
+    "description": "The label of footer link with label=Modding linking to /docs/modding/intro"
+  },
+  "link.item.label.Facebook": {
+    "message": "Facebook",
+    "description": "The label of footer link with label=Facebook linking to https://www.facebook.com/RunningWithRifles/"
+  },
+  "link.item.label.Discord": {
+    "message": "Discord",
+    "description": "The label of footer link with label=Discord linking to https://discord.gg/BXeTySyFxA"
+  },
+  "link.item.label.TikTok": {
+    "message": "TikTok",
+    "description": "The label of footer link with label=TikTok linking to https://www.tiktok.com/@osumiagames"
+  },
+  "link.item.label.WeaponStats comparison": {
+    "message": "WeaponStats comparison",
+    "description": "The label of footer link with label=WeaponStats comparison linking to https://xiang511.com/RWR_WiKi/"
+  },
+  "link.item.label.Official Wiki": {
+    "message": "Official Wiki",
+    "description": "The label of footer link with label=Official Wiki linking to https://runningwithrifles.fandom.com/wiki/Running_with_Rifles_Wiki"
+  },
+  "link.item.label.RwRstats": {
+    "message": "RwRstats",
+    "description": "The label of footer link with label=RwRstats linking to https://rwrstats.com/"
+  },
+  "link.item.label.Discussions": {
+    "message": "Discussions",
+    "description": "The label of footer link with label=Discussions linking to /discussions"
+  },
+  "link.item.label.GitHub": {
+    "message": "GitHub",
+    "description": "The label of footer link with label=GitHub linking to https://github.com/Xiang511/RUNNING-WITH-RIFLES"
+  },
+  "link.item.label.Blog": {
+    "message": "Blog",
+    "description": "The label of footer link with label=Blog linking to /blog"
+  },
+  "copyright": {
+    "message": "Copyright © 2025 Xiang. Built with Docusaurus.",
+    "description": "The footer copyright"
+  }
+}

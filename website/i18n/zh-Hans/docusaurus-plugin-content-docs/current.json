@@ -1,0 +1,54 @@
+{
+  "version.label": {
+    "message": "Next",
+    "description": "The label for version current"
+  },
+  "sidebar.tutorialSidebar.category.Tutorial - Basics": {
+    "message": "Tutorial - Basics",
+    "description": "The label for category Tutorial - Basics in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Tutorial - Basics.link.generated-index.description": {
+    "message": "This guide should help with any questions and issues you have and improves your chance of survival from 0% to at least 5%.",
+    "description": "The generated-index page description for category Tutorial - Basics in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Tutorial - Extra": {
+    "message": "Tutorial - Extra",
+    "description": "The label for category Tutorial - Extra in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Tutorial - Extra.link.generated-index.description": {
+    "message": "Extra instruction - To give you a better understanding of RWR.",
+    "description": "The generated-index page description for category Tutorial - Extra in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Tutorial - Video": {
+    "message": "Tutorial - Video",
+    "description": "The label for category Tutorial - Video in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Tutorial - Video.link.generated-index.description": {
+    "message": "Video Introduction & Tutorial",
+    "description": "The generated-index page description for category Tutorial - Video in sidebar tutorialSidebar"
+  },
+  "sidebar.ResourceSidebar.category.Maps ( Vanilla )": {
+    "message": "Maps ( Vanilla )",
+    "description": "The label for category Maps ( Vanilla ) in sidebar ResourceSidebar"
+  },
+  "sidebar.ResourceSidebar.category.Maps ( Vanilla ).link.generated-index.description": {
+    "message": "Introducing all the maps in RWR",
+    "description": "The generated-index page description for category Maps ( Vanilla ) in sidebar ResourceSidebar"
+  },
+  "sidebar.OnlineSidebar.category.FAQ": {
+    "message": "FAQ",
+    "description": "The label for category FAQ in sidebar OnlineSidebar"
+  },
+  "sidebar.OnlineSidebar.category.FAQ.link.generated-index.description": {
+    "message": "Server settings, Official invasion server rules , Co-op ",
+    "description": "The generated-index page description for category FAQ in sidebar OnlineSidebar"
+  },
+  "sidebar.ModdingSidebar.category.FAQ": {
+    "message": "FAQ",
+    "description": "The label for category FAQ in sidebar ModdingSidebar"
+  },
+  "sidebar.ModdingSidebar.category.FAQ.link.generated-index.description": {
+    "message": "Modding & Customization Guide",
+    "description": "The generated-index page description for category FAQ in sidebar ModdingSidebar"
+  }
+}
