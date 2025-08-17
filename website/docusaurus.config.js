@@ -115,12 +115,6 @@ const config = {
             position: 'left',
             label: 'Modding',
           },
-          {
-            type: 'docSidebar',
-            sidebarId: 'showcaseSidebar',
-            position: 'left',
-            label: 'Showcase',
-          },
           { to: '/discussions', label: 'Discussions', position: 'left' },
           { to: '/blog', label: 'Blog', position: 'left' },
           {
@@ -151,10 +145,6 @@ const config = {
                {
                 label: 'Modding',
                 to: '/docs/modding/intro',
-              },
-              {
-                label: 'Showcase',
-                to: '/docs/showcase/intro',
               },
             ],
           },
