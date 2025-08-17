@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xsl" href="atom.xsl"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://xiang511.com/RUNNING-WITH-RIFLES/zh-Hans/blog</id>
+    <title>RUNNING-WITH-RIFLES Blog</title>
+    <updated>2025-08-11T00:00:00.000Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://xiang511.com/RUNNING-WITH-RIFLES/zh-Hans/blog"/>
+    <subtitle>RUNNING-WITH-RIFLES Blog</subtitle>
+    <icon>https://xiang511.com/RUNNING-WITH-RIFLES/zh-Hans/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[First Blog Post]]></title>
+        <id>https://xiang511.com/RUNNING-WITH-RIFLES/zh-Hans/blog/first-blog-post</id>
+        <link href="https://xiang511.com/RUNNING-WITH-RIFLES/zh-Hans/blog/first-blog-post"/>
+        <updated>2025-08-11T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Hellow !]]></summary>
+        <content type="html"><![CDATA[<p>Hellow !</p>]]></content>
+        <author>
+            <name>Xiang</name>
+        </author>
+    </entry>
+</feed>
