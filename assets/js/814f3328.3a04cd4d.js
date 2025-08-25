@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkwebsite=self.webpackChunkwebsite||[]).push([[7472],{55513:e=>{e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"First Blog Post","permalink":"/RUNNING-WITH-RIFLES/blog/first-blog-post","unlisted":false,"date":"2025-08-11T00:00:00.000Z"}]}')}}]);

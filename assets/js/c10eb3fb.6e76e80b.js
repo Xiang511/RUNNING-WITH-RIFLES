@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkwebsite=self.webpackChunkwebsite||[]).push([[2543],{79097:e=>{e.exports=JSON.parse('{"authors":[{"name":"Xiang","title":"FrontEnd Engineer","page":null,"socials":{"github":"https://github.com/Xiang511"},"imageURL":"https://github.com/Xiang511.png","key":"Xiang","count":1}]}')}}]);
